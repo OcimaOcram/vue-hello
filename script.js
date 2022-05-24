@@ -1,7 +1,7 @@
-const bungionissimo = new Vue({
-    element: "#root",
+const view = new Vue({
+    el: "#root",
     data: {
-        testo: "Ciao Mondo!",
+        testo: "hello World!",
         img: "https://www.bgiorno.it/wp-content/uploads/2020/01/Buongiornissimo-3.jpg",
         classi: "text-center"
     },

@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Document</title>
 </head>
+
 <body>
-    
     <div id="root" :class="classi">
-        <h1>{{ testo }}</h1>
+        <h1> {{ testo }} </h1>
         <div>
             <img :src="img" alt="">
-            <div :class="classi">centrato</div>
+            <div>centrato</div>
         </div>
     </div>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"> </script>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
+
 </html>
